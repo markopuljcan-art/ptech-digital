@@ -1,56 +1,39 @@
 <!DOCTYPE html>
 <html lang="hr">
-
 <head>
+  <!-- Osnovno -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  
+  <!-- SEO -->
+<title>PTech Digital | Izrada web stranica i web development</title>
+<meta name="description" content="PTech Digital nudi izradu, održavanje i dizajn modernih web stranica. Brze, SEO optimizirane i prilagođene vašem poslovanju.">
+<meta name="author" content="PTech Digital">
 
-    <!-- Osnovno -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
+<!-- Open Graph (social media) -->
+<meta property="og:title" content="PTech Digital | Izrada web stranica">
+<meta property="og:description" content="Profesionalna izrada i dizajn modernih web stranica.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="slikaloga.jpg">
+<meta property="og:url" content="https://tvoj-site.com">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://tvoj-site.com">
 
-    <!-- SEO -->
-    <title>PTech Digital | Izrada web stranica i web development</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <meta name="description"
-    content="PTech Digital nudi izradu, održavanje i dizajn modernih web stranica.">
-
-    <meta name="author" content="PTech Digital">
-
-    <!-- Open Graph -->
-    <meta property="og:title"
-    content="PTech Digital | Izrada web stranica">
-
-    <meta property="og:description"
-    content="Profesionalna izrada i dizajn modernih web stranica.">
-
-    <meta property="og:type" content="website">
-
-    <meta property="og:image" content="slikaloga.jpg">
-
-    <meta property="og:url" content="https://tvoj-site.com">
-
-    <meta name="robots" content="index, follow">
-
-    <link rel="canonical" href="https://tvoj-site.com">
-
-    <!-- Favicon -->
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-     <link rel="icon" type="image/png" href="logo.png">
-     
-    <!-- CSS -->
-    <link rel="stylesheet" href="tekst.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="tekst.css">
 
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar" id="navbar">
+  <!-- Navigacija -->
+  <header>
+   <nav class="navbar" id="navbar">
 
     <div class="logo">
         <a href="index.html">
@@ -70,88 +53,109 @@
     </ul>
 
 </nav>
-    </header>
+  </header>
 
-    <!-- MAIN -->
-    <main>
+  <!-- Glavni sadržaj -->
+  <main>
+    <section class="naslovna">
+      <img src ="slika1.png" class="naslovna_slika">
 
-        <!-- KONTAKT -->
+      <div class="hero_text">
+        <h1>DIGITALNA RJEŠENJA</h1> 
+        <h2>Koja pokreću vaš posao naprijed.</h2>
+        <p>IZRADA PROFESIONALNE WEB STRANICE, PORTFOLIJA, WEB SHOPA, SEO OPTIMIZACIJA...</p>
+      </div>
+    </section>
 
-        <section class="kontakt">
+    
+ <!-- SLIKA I TEKST I BUTTON -->
+    <section>
+    <div class="container">
+        <div class="left">
+          <img src="radna.png" alt="">
+         </div>
 
-            <div class="kontakt_text">
 
-                <h1>Kontakt</h1>
+      <div class="right">
+        <h1>IDEJA, DIZAJN, RJEŠENJE</h1>
+        <br><br>
+        <h2>O NAMA</h2>
+       <p>Mi pretvaramo ideje u funkcionalna rješenja. Naš tim spaja dizajn, tehnologiju i strategiju kako bi vašem poslovanju donio stvarne rezultate</p>
+       <button><b>VIŠE O NAMA</b></button>
+      </div>
+    </div>
+    </section>
 
-                <p>
-                    Imate ideju za projekt ili trebate modernu web stranicu?
-                    Javite nam se i zajedno ćemo pronaći najbolje rješenje.
-                </p>
-
-                <h2>Kontakt podaci</h2>
-
-                <p>E-mail: info@ptechdigital.com</p>
-
-                <p>Tel: +385 91 616 5294</p>
-
-                <h2>Radno vrijeme</h2>
-
-                <p>Ponedjeljak - Petak: 09:00 - 17:00</p>
-               <br>
-                <div class="response-badge">
-                    ⚡ Odgovaramo unutar 24 sata
-                </div>
-                <div class="response-badge">
-                   🔒 Vaši podaci koriste se isključivo za odgovor na vaš upit
-                </div>
-            </div>
-            
-<form class="kontakt_forma"
-action="https://formspree.io/f/mgoqolpw"
-method="POST">
-
-    <h2>Pošaljite upit</h2>
-
-    <input type="hidden"
-    name="_subject"
-    value="Novi upit s PTech Digital stranice">
-
-    <input type="text"
-    name="ime"
-    placeholder="Ime i prezime"
-    autocomplete="name"
-    required>
-
-    <input type="email"
-    name="email"
-    placeholder="Email"
-    autocomplete="email"
-    required>
-    <input
-    type="tel"
-    name="telefon"
-    placeholder="Telefon (nije obavezno)">
-
-    <input
-    type="text"
-    name="tvrtka"
-    placeholder="Tvrtka (nije obavezno)">
-
-    <textarea
-    name="poruka"
-    placeholder="Opišite svoj projekt i javit ćemo vam se s prijedlogom rješenja"
-    autocomplete="off"
-    required></textarea>
-
-    <button type="submit">
-        POŠALJI UPIT
-    </button>
-
-    </form>
+ <!-- QOUTE I BEDŽEVI -->
+<section class="quote_section process">
+    <div class="line"></div>
+    <h1>
+        “Ne izrađujemo samo web stranice.
+        Gradimo digitalni identitet vašeg poslovanja.”
+    </h1>
+    <div class="line"></div>
 </section>
-<hr>
-        <!-- FAQ -->
-        <section class="faq">
+
+
+
+    
+ <!-- USLUGE -->
+  <section class="services">
+    <h1>NAŠE USLUGE</h1>
+    <div class="service_container">
+        <div class="service_card">
+            <h2>WEB DIZAJN</h2>
+            <p>Moderan i responzivan dizajn prilagođen vašem brendu.</p>
+        </div>
+        <div class="service_card">
+            <h2>WEB DEVELOPMENT</h2>
+            <p>Izrada brzih i profesionalnih web stranica i webshopova.</p>
+        </div>
+        <div class="service_card">
+            <h2>SEO OPTIMIZACIJA</h2>
+            <p>Poboljšanje pozicije vaše stranice na Google tražilici.</p>
+        </div>
+        <div class="service_card">
+            <h2>ODRŽAVANJE</h2>
+            <p>Redovno održavanje, sigurnost i ažuriranje web stranice.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="process">
+    <h1>KAKO RADIMO?</h1>
+
+    <div class="process_steps">
+        <div class="process_step">
+            <span>01</span>
+            <h2>Konzultacije</h2>
+            <p>Razgovaramo o ciljevima, stilu i potrebama vaše stranice.</p>
+        </div>
+
+        <div class="process_step">
+            <span>02</span>
+            <h2>Dizajn</h2>
+            <p>Izrađujemo moderan vizualni smjer prilagođen vašem brendu.</p>
+        </div>
+
+        <div class="process_step">
+            <span>03</span>
+            <h2>Razvoj</h2>
+            <p>Pretvaramo dizajn u brzu i responzivnu web stranicu.</p>
+        </div>
+
+        <div class="process_step">
+            <span>04</span>
+            <h2>Objava</h2>
+            <p>Postavljamo stranicu online i pripremamo je za korisnike.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="faq">
     <h1>ČESTA PITANJA KLIJENATA</h1>
 
     <details>
@@ -174,31 +178,42 @@ method="POST">
         <p>Da, nudimo održavanje i podršku.</p>
     </details>
 </section>
-    </main>
 
-    <!-- FOOTER -->
-    <hr>
-    <footer>
-        <br>
-        <h2>PTech Digital</h2>
-        <p>Digitalna rješenja za moderan web.</p>
-        <div class="socials">
-            <a href="#">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
+
+
+<a href="kontakt.html" class="floating-contact">
+    <i class="fa-solid fa-message"></i>
+    <span>Zatraži ponudu</span>
+</a>
+
+
+</main>
+
+
+  <!-- Footer -->
+   <hr>
+  <footer>
+    <br>
+    <h2>PTech Digital</h2>
+    <p>Digitalna rješenja za moderan web.</p>
+    <div class="socials">
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
         </div>
-        <br>
-        <p>E-mail: info@ptechdigital.com</p>
-        <p>Tel: +385 91 616 5294</p>
-        <p>&copy; 2026 PTech Digital</p>
-    </footer>
+    <br>
+    <p>E-mail: info@ptechdigital.com</p>
+    <p>tel: +385 91 616 5294</p>
+    <p>&copy; 2026 PTech Digital</p>
+  </footer>
 
-    <!-- JS -->
 
-    <script defer src="script.js"></script>
+
+
+  <!-- JS -->
   <script>
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("navLinks");
@@ -257,7 +272,5 @@ card.addEventListener("mouseleave", () => {
     });
     
 </script>
-
 </body>
-
 </html>
